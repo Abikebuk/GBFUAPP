@@ -1,11 +1,11 @@
 # Granblue Fantasy Utility App (GBFUAPP)
-####...........................................................................................................Server side
+#### ...........................................................................................................Server side
 **Version :** ``0.0.1``
 
-###Description
+#### Description
 Server side of the GBFUAPP.
 
-###Features
+#### Features
 * **Raid Finder :**
     * Raids are fetched on a Twitter stream.
         * Works with both versions 1.1 and 2.0 of Twitter API. Uses Twitter-Lite for v1.1 and Axios for v2.0.  
@@ -18,7 +18,7 @@ Server side of the GBFUAPP.
         * Raids data are gathered on gbf.wiki.
         
         
-###How to use
+#### How to use
 * First check ``config.json`` then replace **front_hostname** with the hostname of your front.  
 * Next replace every token with your own Twitter App tokens.
 *Then run :
@@ -26,5 +26,5 @@ Server side of the GBFUAPP.
     npm run
     ```
 
-###Configure 
+#### Configure 
 You can change parameters of GBFUAPP by editing ``config.json``.

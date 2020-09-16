@@ -1,0 +1,19 @@
+#header {
+  background-color: #2854ca;
+  color: #e7e7e7;
+  border-bottom: 2px solid #000;
+}
+#header #header-banner #header-banner-text {
+  color: #27a986;
+}
+#header #clock #clock-text {
+  font-size: 14pt;
+  font-weight: bold;
+}
+#header #clock .clock-colon {
+  font-weight: bold;
+  font-size: 12pt;
+}
+#header #clock .clock-time {
+  font-size: 12pt;
+}

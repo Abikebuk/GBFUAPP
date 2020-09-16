@@ -1,0 +1,41 @@
+#header {
+  background-color: #2854ca;
+  color: #e7e7e7;
+  border-bottom: 2px solid #000;
+}
+#header #header-banner #header-banner-text {
+  color: #27a986;
+}
+#header #clock #clock-text {
+  font-size: 14pt;
+  font-weight: bold;
+}
+#header #clock .clock-colon {
+  font-weight: bold;
+  font-size: 12pt;
+}
+#header #clock .clock-time {
+  font-size: 12pt;
+}
+#content {
+  flex: 1 0 auto;
+}
+#footer {
+  flex-shrink: 0;
+  border-top: 4px solid #4d4ddb;
+  background-color: #222;
+  color: #fff;
+}
+body,
+html,
+#root,
+#app {
+  height: 100%;
+  width: 100%;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  background-color: #323232;
+  color: #fff;
+}

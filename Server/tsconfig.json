@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "strict": true,
+    "types": ["node"],
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "app.ts"
+  ],
+  "exclude": ["node_modules"]
+}

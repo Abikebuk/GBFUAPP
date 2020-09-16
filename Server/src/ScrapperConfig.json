@@ -1,0 +1,10 @@
+{
+  "wiki_url": "https://gbf.wiki",
+  "tweetdeck_path": "/TweetDeck",
+  "raid_category" : [
+    { "name": "Normal Raid Bosses", "id": "Normal_Raid_Bosses"},
+    { "name": "Primarch Raids", "id": "Primarch_Raids" },
+    { "name": "HL Raid Bosses", "id": "HL_Raid_Bosses"},
+    { "name": "Event Raid Bosses", "id": "Event_Raid_Bosses"}
+  ]
+}

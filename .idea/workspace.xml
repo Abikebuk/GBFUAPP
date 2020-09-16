@@ -2,72 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06025f0a-7443-4535-802f-de3a1684256e" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/GBF Utility App.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/Content.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/Content/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/Content/MenuService.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/Content/Raids.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/Content/RaidsService.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/Header/Banner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/components/Header/Clock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/css/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/css/Content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/css/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/css/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/models/BackupRequest.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/models/Raid.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/serviceWorker.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/styl/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/styl/App.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/styl/Content.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/styl/Footer.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/src/styl/Header.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/Parser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/RaidListManager.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/Scrapper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/ScrapperConfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/Twitter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/Utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/data/raids-mockup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/data/raids.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/models/BackupRequest.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/models/Raid.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/services/RaidFinder.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/services/RaidsList.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/npm-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/config.save.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/logs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Front/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +42,7 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/Front/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.[ RUN ] Server">
+  <component name="RunManager" selected="npm.[ RUN ] Front">
     <configuration name="[ RUN ] Front" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/Front/package.json" />
       <command value="run" />
@@ -134,8 +75,16 @@
       <workItem from="1600183468096" duration="359000" />
       <workItem from="1600187670424" duration="4829000" />
       <workItem from="1600192634809" duration="7068000" />
-      <workItem from="1600214813573" duration="3546000" />
+      <workItem from="1600214813573" duration="9385000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1600219229590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600219229590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +107,14 @@
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state x="984" y="542" key="#Prettier/0.30.2560.1335@0.30.2560.1335" timestamp="1600188248386" />
+    <state x="743" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600224012404">
+      <screen x="0" y="30" width="2560" height="1335" />
+    </state>
+    <state x="743" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.2560.1335@0.30.2560.1335" timestamp="1600224012404" />
+    <state x="1025" y="478" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600225316519">
+      <screen x="0" y="30" width="2560" height="1335" />
+    </state>
+    <state x="1025" y="478" key="#com.intellij.fileTypes.FileTypeChooser/0.30.2560.1335@0.30.2560.1335" timestamp="1600225316519" />
     <state x="1067" y="429" key="FileChooserDialogImpl" timestamp="1600189386926">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
@@ -170,34 +127,34 @@
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state x="1088" y="405" key="Github.UntrackedFilesDialog/0.30.2560.1335@0.30.2560.1335" timestamp="1600218760335" />
-    <state width="1267" height="287" key="GridCell.Tab.0.bottom" timestamp="1600218763974">
+    <state width="1267" height="287" key="GridCell.Tab.0.bottom" timestamp="1600224298087">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state width="948" height="287" key="GridCell.Tab.0.bottom/0.30.1920.1095@0.30.1920.1095" timestamp="1600216105281" />
-    <state width="1267" height="287" key="GridCell.Tab.0.bottom/0.30.2560.1335@0.30.2560.1335" timestamp="1600218763974" />
-    <state width="1267" height="287" key="GridCell.Tab.0.center" timestamp="1600218763973">
+    <state width="1267" height="287" key="GridCell.Tab.0.bottom/0.30.2560.1335@0.30.2560.1335" timestamp="1600224298087" />
+    <state width="1267" height="287" key="GridCell.Tab.0.center" timestamp="1600224298086">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state width="948" height="287" key="GridCell.Tab.0.center/0.30.1920.1095@0.30.1920.1095" timestamp="1600216105280" />
-    <state width="1267" height="287" key="GridCell.Tab.0.center/0.30.2560.1335@0.30.2560.1335" timestamp="1600218763973" />
-    <state width="1267" height="287" key="GridCell.Tab.0.left" timestamp="1600218763972">
+    <state width="1267" height="287" key="GridCell.Tab.0.center/0.30.2560.1335@0.30.2560.1335" timestamp="1600224298086" />
+    <state width="1267" height="287" key="GridCell.Tab.0.left" timestamp="1600224298086">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state width="948" height="287" key="GridCell.Tab.0.left/0.30.1920.1095@0.30.1920.1095" timestamp="1600216105279" />
-    <state width="1267" height="287" key="GridCell.Tab.0.left/0.30.2560.1335@0.30.2560.1335" timestamp="1600218763972" />
-    <state width="1267" height="287" key="GridCell.Tab.0.right" timestamp="1600218763973">
+    <state width="1267" height="287" key="GridCell.Tab.0.left/0.30.2560.1335@0.30.2560.1335" timestamp="1600224298086" />
+    <state width="1267" height="287" key="GridCell.Tab.0.right" timestamp="1600224298087">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state width="948" height="287" key="GridCell.Tab.0.right/0.30.1920.1095@0.30.1920.1095" timestamp="1600216105280" />
-    <state width="1267" height="287" key="GridCell.Tab.0.right/0.30.2560.1335@0.30.2560.1335" timestamp="1600218763973" />
+    <state width="1267" height="287" key="GridCell.Tab.0.right/0.30.2560.1335@0.30.2560.1335" timestamp="1600224298087" />
     <state x="582" y="274" width="902" height="745" key="SettingsEditor" timestamp="1600215736595">
       <screen x="0" y="30" width="1920" height="1095" />
     </state>
     <state x="582" y="274" width="902" height="745" key="SettingsEditor/0.30.1920.1095@0.30.1920.1095" timestamp="1600215736595" />
     <state x="776" y="328" width="1007" height="745" key="SettingsEditor/0.30.2560.1335@0.30.2560.1335" timestamp="1600190575699" />
-    <state x="879" y="418" key="Vcs.Push.Dialog.v2" timestamp="1600218808198">
+    <state x="879" y="418" key="Vcs.Push.Dialog.v2" timestamp="1600219239482">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
-    <state x="879" y="418" key="Vcs.Push.Dialog.v2/0.30.2560.1335@0.30.2560.1335" timestamp="1600218808198" />
+    <state x="879" y="418" key="Vcs.Push.Dialog.v2/0.30.2560.1335@0.30.2560.1335" timestamp="1600219239482" />
   </component>
 </project>

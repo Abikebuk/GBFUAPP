@@ -1,0 +1,35 @@
+{
+  "_COMMENT_CAT_1:":
+    "========== [ CONFIGURATION FILE ] ===========",
+  "front_hostname": "http://localhost:3000",
+  "port": 3001,
+  "warning-print": false,
+  "verbose": false,
+  "twitter-api-version": 1,
+  "__COMMENT_API_V2" :
+    "########### API TWITTER V1 CONFIG ###########",
+  "token-access": "your_token_access",
+  "token-access-secret": "your_token_access_secret",
+  "token-consumer-key": "your_token_consumer_key",
+  "token-consumer-secret": "your_token_consumer_secret",
+  "twitter-rules-v1":  {
+    "track": "参加者募集！,Battle ID I need backup! Lvl"
+  },
+  "__COMMENT_API_V1" :
+    "########### API TWITTER V2 CONFIG ###########",
+  "stream-url-v2": "https://api.twitter.com/2/tweets/search/stream?tweet.fields=created_at",
+  "rules-url-v2": "https://api.twitter.com/2/tweets/search/stream/rules",
+  "token-bearer": "your_token_bearer",
+  "twitter-rules-v2": {
+    "add": [
+      {
+        "value": "Battle ID I need backup! Lvl",
+        "tag": "raid (en)"
+      },
+      {
+        "value": "参戦ID 参加者募集！",
+        "tag": "raid (jp)"
+      }
+    ]
+  }
+}

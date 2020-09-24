@@ -28,11 +28,9 @@ class RaidSelector {
   }
 
   remove(raid: NameLevelDuet): RaidSelector {
-    console.log("a");
     this.selector = this.selector.filter(
       (val) => val.name !== raid.name || val.level !== raid.level
     );
-    console.log(this.list());
     return this;
   }
 

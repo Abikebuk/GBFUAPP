@@ -1,6 +1,9 @@
 import axios from "axios";
 import Twit from "twitter-lite";
+import { Readable } from "stream";
 import config from "../config.json";
+import Parser from "./Parser";
+import RaidListManager from "./RaidListManager";
 /**
  * Twitter data fetching
  */
@@ -18,6 +21,8 @@ export default class Twitter {
   /* Request headers */
   headers: object;
 
+  readable = new Readable();
+
   /**
    * Constructor
    * @param token : string, the bearer token
@@ -27,6 +32,8 @@ export default class Twitter {
       "content-type": "application/json",
       authorization: `Bearer ${token}`,
     };
+    // eslint-disable-next-line no-underscore-dangle,func-names,@typescript-eslint/no-empty-function
+    this.readable._read = function () {};
   }
 
   /**
@@ -71,9 +78,7 @@ export default class Twitter {
           console.log(`[ERROR] Twitter : Could not get stream.`);
         });
       case 2:
-        return this.getStreamV2().then((stream) => {
-          return stream.data;
-        });
+        return this.getStreamV2();
       default:
         throw new Error(
           `[ERROR] Twitter : API version ${config["twitter-api-version"]} doesn't exist. Set it to 1 or 2.`
@@ -85,7 +90,14 @@ export default class Twitter {
    * @return stream : Promise<any>
    */
   async getStreamV1(): Promise<any> {
-    return this.twit.stream("statuses/filter", config["twitter-rules-v1"]);
+    return this.twit
+      .stream("statuses/filter", config["twitter-rules-v1"])
+      .on("data", (data) => {
+        const decodedData = Parser.decodeDataOfBackupRequest(data);
+        const stringData = JSON.stringify(decodedData);
+        // RaidListManager.requestUpdate(decodedData);
+        this.readable.push(stringData);
+      });
   }
 
   /**
@@ -145,5 +157,9 @@ export default class Twitter {
     await this.deleteAllRulesV2();
     console.log("[LOAD*] Adding new twitter rules");
     await this.setRulesV2(rules);
+  }
+
+  async getReadableStream(): Promise<Readable> {
+    return this.readable;
   }
 }

@@ -1,6 +1,5 @@
 import { Express } from "express";
 import RaidListManager from "../RaidListManager";
-import config from "../../config.json";
 import { setGenericHeaders } from "../Utils";
 
 async function serviceRaidList(app: Express): Promise<void> {

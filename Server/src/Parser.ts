@@ -43,23 +43,28 @@ export default class Parser {
       default:
         re = new RegExp("");
     }
-    const match = s.match(re);
-    if (match === null || match.length !== 5) {
-      if (config["warning-print"])
-        console.log(
-          `[WARN*] Parser : Parsing failed, string either empty or doesn't match parsing parameters :\n.......String = ${s}`
-        );
+    try {
+      const match = s.match(re);
+
+      if (match === null || match.length !== 5) {
+        if (config["warning-print"])
+          console.log(
+            `[WARN*] Parser : Parsing failed, string either empty or doesn't match parsing parameters :\n.......String = ${s}`
+          );
+        return null;
+      }
+      const [, message, code, level, raidName] = match;
+      return {
+        raid_name: raidName,
+        level,
+        message,
+        code,
+        createdAt,
+        language,
+      };
+    } catch (e) {
       return null;
     }
-    const [, message, code, level, raidName] = match;
-    return {
-      raid_name: raidName,
-      level,
-      message,
-      code,
-      createdAt,
-      language,
-    };
   }
 
   static decodeDataOfBackupRequest(data: any): BackupRequest | null {

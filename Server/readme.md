@@ -1,12 +1,13 @@
 # Granblue Fantasy Utility App (GBFUAPP)
 #### ...........................................................................................................Server side
-**Version :** ``0.0.1``
+**Version :** ``0.1.0``  
+**State :** ``Pre-Alpha``
 
 #### Description
 Server side of the GBFUAPP.
 
 #### Features
-* **Raid Finder :**
+* **Raid Finder :** ``0.1.0-pre-alpha``
     * Raids are fetched on a Twitter stream.
         * Works with both versions 1.1 and 2.0 of Twitter API. Uses Twitter-Lite for v1.1 and Axios for v2.0.  
         *Unfortunately version 2.0 is limited to 500,000 fetched tweet a month and is capped in a few hours.*
@@ -28,3 +29,9 @@ Server side of the GBFUAPP.
 
 #### Configure 
 You can change parameters of GBFUAPP by editing ``config.json``.
+
+
+### Issues
+* Twitter V2 is broken because I capped the 500K tweet fetch limit and can't test it.
+* Code has no comments yet 
+* Crashes when selecting a raid with bad values

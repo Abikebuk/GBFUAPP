@@ -1,5 +1,4 @@
 import express from "express";
-import axios from "axios";
 import config from "./config.json";
 import Twitter from "./src/Twitter";
 import serviceRaidFinder from "./src/services/RaidFinder";
@@ -29,6 +28,7 @@ async function start() {
   await RaidListManager.synchronizeWithTweetDeck();
   console.log("[*DONE] Initialization of the app done!");
   console.log("[LOAD*] Service Raid Finder...");
+  twit.getStream();
   await serviceRaidFinder(app, twit);
   console.log("[LOAD*] Service Raid List...");
   await serviceRaidList(app);
@@ -41,16 +41,6 @@ start()
     app.listen(port, () => {
       console.log(`[LOAD*] Listening to port ${port}`);
     });
-    /*
-    axios({
-      url: "http://localhost:3001/RaidFinder",
-      responseType: "stream",
-    });.then((resp) => {
-      resp.data.on("data", (data: any) => {
-        console.log(JSON.parse(data));
-      });
-    });
-    */
   })
   .catch((err) => {
     console.log(err);

@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="06025f0a-7443-4535-802f-de3a1684256e" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/Server/config.save.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/logs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="06025f0a-7443-4535-802f-de3a1684256e" name="Default Changelist" comment="Little readme update">
+      <change afterPath="$PROJECT_DIR$/Front/logs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/src/RaidManager.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/src/components/RaidSelectorService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/src/models/MinimalBackupRequest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/src/models/NameLeveLDuet.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/src/models/RaidStack.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Front/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/components/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/components/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/components/Content.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/components/Content/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/components/Content/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/components/Content/MenuService.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/components/Content/Raids.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/components/Content/Raids.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/components/Content/RaidsService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/components/Content/RaidsService.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/styl/App.styl" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/styl/App.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/logs.md" beforeDir="false" afterPath="$PROJECT_DIR$/Server/logs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Server/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/Parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/Parser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/RaidListManager.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/RaidListManager.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/Twitter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/Twitter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/data/raids.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/data/raids.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/services/RaidFinder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/services/RaidFinder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/services/RaidsList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/services/RaidsList.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,22 +68,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/Front/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="/usr/local/lib/node_modules/npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/Front/node_modules/prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/Front/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.[ RUN ] Front">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Front/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.[ RUN ] Server">
     <configuration name="[ RUN ] Front" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/Front/package.json" />
       <command value="run" />
@@ -75,7 +124,12 @@
       <workItem from="1600183468096" duration="359000" />
       <workItem from="1600187670424" duration="4829000" />
       <workItem from="1600192634809" duration="7068000" />
-      <workItem from="1600214813573" duration="9385000" />
+      <workItem from="1600214813573" duration="33795000" />
+      <workItem from="1600344997354" duration="11089000" />
+      <workItem from="1600437235331" duration="19728000" />
+      <workItem from="1600528856238" duration="13255000" />
+      <workItem from="1600647521796" duration="118000" />
+      <workItem from="1600705228099" duration="68519000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1600219229590</created>
@@ -84,21 +138,56 @@
       <option name="project" value="LOCAL" />
       <updated>1600219229590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Readmes,logs and config files">
+      <created>1600225453001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600225453002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Little readme update">
+      <created>1600226065587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600226065587</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Little readme update">
+      <created>1600226176119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600226176119</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Add Readmes,logs and config files" />
+    <MESSAGE value="Little readme update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little readme update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="30" width="2560" height="1335" key="#ESLint" timestamp="1600189400379">
+    <state x="0" y="30" width="2560" height="1335" key="#ESLint" timestamp="1600464575509">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
-    <state x="0" y="30" width="2560" height="1335" key="#ESLint/0.30.2560.1335@0.30.2560.1335" timestamp="1600189400379" />
+    <state x="0" y="30" width="2560" height="1335" key="#ESLint/0.30.2560.1335@0.30.2560.1335" timestamp="1600464575509" />
     <state x="1008" y="509" key="#Notifications" timestamp="1600190568641">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
@@ -111,14 +200,18 @@
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state x="743" y="344" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.2560.1335@0.30.2560.1335" timestamp="1600224012404" />
-    <state x="1025" y="478" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600225316519">
+    <state x="1025" y="478" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600250084277">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
-    <state x="1025" y="478" key="#com.intellij.fileTypes.FileTypeChooser/0.30.2560.1335@0.30.2560.1335" timestamp="1600225316519" />
+    <state x="1025" y="478" key="#com.intellij.fileTypes.FileTypeChooser/0.30.2560.1335@0.30.2560.1335" timestamp="1600250084277" />
     <state x="1067" y="429" key="FileChooserDialogImpl" timestamp="1600189386926">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state x="1067" y="429" key="FileChooserDialogImpl/0.30.2560.1335@0.30.2560.1335" timestamp="1600189386926" />
+    <state x="0" y="30" key="FileDocumentManager.FileCacheConflict" timestamp="1600356199624">
+      <screen x="0" y="30" width="2560" height="1335" />
+    </state>
+    <state x="0" y="30" key="FileDocumentManager.FileCacheConflict/0.30.2560.1335@0.30.2560.1335" timestamp="1600356199624" />
     <state x="519" y="317" key="Github.ShareDialog" timestamp="1600218705364">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
@@ -127,34 +220,46 @@
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state x="1088" y="405" key="Github.UntrackedFilesDialog/0.30.2560.1335@0.30.2560.1335" timestamp="1600218760335" />
-    <state width="1267" height="287" key="GridCell.Tab.0.bottom" timestamp="1600224298087">
+    <state width="1268" height="262" key="GridCell.Tab.0.bottom" timestamp="1600910162456">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state width="948" height="287" key="GridCell.Tab.0.bottom/0.30.1920.1095@0.30.1920.1095" timestamp="1600216105281" />
-    <state width="1267" height="287" key="GridCell.Tab.0.bottom/0.30.2560.1335@0.30.2560.1335" timestamp="1600224298087" />
-    <state width="1267" height="287" key="GridCell.Tab.0.center" timestamp="1600224298086">
+    <state width="1268" height="262" key="GridCell.Tab.0.bottom/0.30.2560.1335@0.30.2560.1335" timestamp="1600910162456" />
+    <state width="1268" height="262" key="GridCell.Tab.0.center" timestamp="1600910162455">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state width="948" height="287" key="GridCell.Tab.0.center/0.30.1920.1095@0.30.1920.1095" timestamp="1600216105280" />
-    <state width="1267" height="287" key="GridCell.Tab.0.center/0.30.2560.1335@0.30.2560.1335" timestamp="1600224298086" />
-    <state width="1267" height="287" key="GridCell.Tab.0.left" timestamp="1600224298086">
+    <state width="1268" height="262" key="GridCell.Tab.0.center/0.30.2560.1335@0.30.2560.1335" timestamp="1600910162455" />
+    <state width="1268" height="262" key="GridCell.Tab.0.left" timestamp="1600910162453">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state width="948" height="287" key="GridCell.Tab.0.left/0.30.1920.1095@0.30.1920.1095" timestamp="1600216105279" />
-    <state width="1267" height="287" key="GridCell.Tab.0.left/0.30.2560.1335@0.30.2560.1335" timestamp="1600224298086" />
-    <state width="1267" height="287" key="GridCell.Tab.0.right" timestamp="1600224298087">
+    <state width="1268" height="262" key="GridCell.Tab.0.left/0.30.2560.1335@0.30.2560.1335" timestamp="1600910162453" />
+    <state width="1268" height="262" key="GridCell.Tab.0.right" timestamp="1600910162456">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
     <state width="948" height="287" key="GridCell.Tab.0.right/0.30.1920.1095@0.30.1920.1095" timestamp="1600216105280" />
-    <state width="1267" height="287" key="GridCell.Tab.0.right/0.30.2560.1335@0.30.2560.1335" timestamp="1600224298087" />
+    <state width="1268" height="262" key="GridCell.Tab.0.right/0.30.2560.1335@0.30.2560.1335" timestamp="1600910162456" />
     <state x="582" y="274" width="902" height="745" key="SettingsEditor" timestamp="1600215736595">
       <screen x="0" y="30" width="1920" height="1095" />
     </state>
     <state x="582" y="274" width="902" height="745" key="SettingsEditor/0.30.1920.1095@0.30.1920.1095" timestamp="1600215736595" />
     <state x="776" y="328" width="1007" height="745" key="SettingsEditor/0.30.2560.1335@0.30.2560.1335" timestamp="1600190575699" />
-    <state x="879" y="418" key="Vcs.Push.Dialog.v2" timestamp="1600219239482">
+    <state x="1131" y="594" key="VCS.ChangelistChooser" timestamp="1600918467766">
       <screen x="0" y="30" width="2560" height="1335" />
     </state>
-    <state x="879" y="418" key="Vcs.Push.Dialog.v2/0.30.2560.1335@0.30.2560.1335" timestamp="1600219239482" />
+    <state x="1131" y="594" key="VCS.ChangelistChooser/0.30.2560.1335@0.30.2560.1335" timestamp="1600918467766" />
+    <state x="1152" y="598" width="255" height="190" key="VCS.EditChangelistDialog" timestamp="1600918455027">
+      <screen x="0" y="30" width="2560" height="1335" />
+    </state>
+    <state x="1152" y="598" width="255" height="190" key="VCS.EditChangelistDialog/0.30.2560.1335@0.30.2560.1335" timestamp="1600918455027" />
+    <state x="879" y="418" key="Vcs.Push.Dialog.v2" timestamp="1600226182230">
+      <screen x="0" y="30" width="2560" height="1335" />
+    </state>
+    <state x="879" y="418" key="Vcs.Push.Dialog.v2/0.30.2560.1335@0.30.2560.1335" timestamp="1600226182230" />
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1600715943517">
+      <screen x="0" y="30" width="2560" height="1335" />
+    </state>
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup/0.30.2560.1335@0.30.2560.1335" timestamp="1600715943517" />
   </component>
 </project>

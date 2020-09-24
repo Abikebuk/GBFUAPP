@@ -1,7 +1,9 @@
 import fs from "fs/promises";
+import { promises } from "dns";
 import jsonRaids from "./data/raids.json";
 import Raid from "./models/Raid";
 import Scrapper from "./Scrapper";
+import BackupRequest from "./models/BackupRequest";
 /**
  * Class managing the list of known raids
  */
@@ -171,6 +173,15 @@ class RaidListManager {
     });
     await this.rebuildRaidFile();
     console.log("[DONE*] Synchronization of raid list with TweetDeck done");
+  }
+
+  static async requestUpdate(decodedData: BackupRequest | null): Promise<void> {
+    if (decodedData !== null) {
+      await this.CAUStackPush({
+        raidName: decodedData.raid_name,
+        language: decodedData.language,
+      });
+    }
   }
 }
 

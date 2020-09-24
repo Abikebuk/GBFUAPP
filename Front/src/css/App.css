@@ -38,4 +38,5 @@ html,
   flex-direction: column;
   background-color: #323232;
   color: #fff;
+  overflow: scroll;
 }
